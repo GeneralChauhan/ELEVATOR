@@ -1,39 +1,42 @@
 .body {
-    height: 100vh;
-    width: 100vh;
-  }
-  .elevatorChannel {
-    position: absolute;
-    height: 600px;
-    width: 300px;
-    margin: 50px;
-    margin-left: auto;
-    padding: 20px;
-    margin-right: auto;
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .elevator {
-    /*   margin-top: 0; */
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    height: 29%;
-    width: 88%;
-    top: 20px;
-    z-index: 3;
-    border: 1px solid black;
-    /*   background: black */
-  }
-  .floors {
-    font-family: sans-serif;
-    font-weight: 900;
-    font-size: 40px;
-    position: relative;
-    height: 31%;
-    width: 100%;
-    background: white;
-  }
+  height: 100vh;
+  width: 100vh;
+}
+.elevatorChannel {
+  position: absolute;
+  height: 600px;
+  width: 300px;
+  margin: 50px;
+  margin-left: auto;
+  padding: 20px;
+  margin-right: auto;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.elevator {
+  /*   margin-top: 0; */
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  height: 29%;
+  width: 88%;
+  top: 20px;
+  z-index: 3;
+  border: 1px solid black;
+  /*   background: black */
+}
+.floors {
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  position: relative;
+  height: 31%;
+  width: 100%;
+  background: white;
+}
+.moveUp1{
+  /* ground to 2 */
   
+}
